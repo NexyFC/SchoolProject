@@ -4,15 +4,36 @@
   <title>Google</title>
 
   <style>
+
+    body {
+      margin: 0;
+    }
+
+    .holder {
+      margin-top: 150px;
+      position: relative;
+    }
+
+    .header {
+      position: absolute;
+      width: 1fr;
+      height: 70px;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      margin-top: -150px
+    }
+
     .search-div,
     .logo-div {
       position: relative;
       display: flex;
       justify-content: center;
+      align-content: center;
     }
 
     .logo {
-      width: 240px;
+      width: 280px;
       margin-top: 100px;
     }
 
@@ -135,10 +156,23 @@
       justify-content: center;
     }
 
+    .subjects {
+      position: absolute
+    }
+
+    .waffle {
+      width: 25px;
+      margin-left: 20px;
+      margin-top: 20px;
+      background-color: rgb(243, 243, 243);
+      padding: 10px;
+      border-radius: 50%;
+    }
+
   </style>
 </head>
 <body>
-  <div>
+  <div class="holder">
     <div class="logo-div">
       <img class="logo" src="icons/logo.png">
     </div>
@@ -155,6 +189,12 @@
         <button class="lucky">
           I'm Feeling Lucky
         </button>
+    </div>
+
+    <div class="header">
+      <div class="subjects">
+        <img class="waffle" src="icons/waffle.png" href="https://google.com">
+      </div>
     </div>
   </div>
 </body>
