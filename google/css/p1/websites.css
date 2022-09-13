@@ -1,0 +1,14 @@
+.websites {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.website-name {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.description {
+  font-weight: 200;
+  font-size: 12px;
+}
