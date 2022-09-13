@@ -1,0 +1,131 @@
+.search-div,
+.logo-div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.logo {
+  width: 280px;
+  margin-top: 100px;
+}
+
+.search-bar {
+  margin-top: 44px;
+  height: 45px;
+  width: 540px;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 100px;
+  border-style: solid;
+  border-color: rgb(147, 147, 147);
+  border-width: 1px;
+
+  font-family: Arial;
+  font-size: 16px;
+  color: black;
+}
+
+.search-div:hover .search-bar{
+  background-color: rgb(248, 248, 248);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+input[type="text"]{
+  padding-left:40px;
+}
+
+.search-icon {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 61px;
+
+  padding-right: 540px;
+}
+
+.mic-icon {
+  height: 20px;
+  width: 16px;
+
+  position: absolute;
+  top: 58px;
+
+  padding-left: 530px;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.search {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  font-size: 14px;
+
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  background-color: rgb(236, 236, 236);
+  transition: opacity 0.1s;
+}
+
+.search:hover {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.search:active {
+  opacity: 0.5;
+}
+
+.lucky {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  font-size: 14px;
+
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  background-color: rgb(236, 236, 236);
+  transition: opacity 0.1s;
+}
+
+.lucky:hover {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.lucky:active {
+  opacity: 0.5;
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: center;
+}

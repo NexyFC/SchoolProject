@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+}
+
+.holder {
+  margin-top: 1fr;
+  position: relative;
+}

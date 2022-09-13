@@ -1,0 +1,14 @@
+.subjects {
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+
+.waffle {
+  width: 25px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: rgb(243, 243, 243);
+  padding: 10px;
+  border-radius: 50%;
+}
